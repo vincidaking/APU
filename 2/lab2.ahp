@@ -1,0 +1,226 @@
+Version: 2.0
+Alternatives: &alternatives
+# Here, we list all the alternatives, together with their attributes. 
+# We can use these attributes later in the file when defining 
+# preferenceFunctions. The attributes can be quantitative or 
+# qualitative.
+  Monitor 1:
+      Matryca: 24
+      Rodzaj_matrycy: TN
+      Rozdzielczosc_w: 1920
+      Rozdzielczosc_h: 1080
+      Jakosc_ekranu: 350
+      Czas_reakcji_matrycy: 1
+      Czestotliwosc_odswiezania: 144
+      Kontrast_statyczny: 1000
+      Cena: 829
+      Ocena: 4.8
+      Liczba_ocen: 25
+  Monitor 2:
+      Matryca: 23.6
+      Rodzaj_matrycy: VA
+      Rozdzielczosc_w: 1920
+      Rozdzielczosc_h: 1080
+      Jakosc_ekranu: 300
+      Czas_reakcji_matrycy: 1
+      Czestotliwosc_odswiezania: 144
+      Kontrast_statyczny: 3000
+      Cena: 1099
+      Ocena: 3
+      Liczba_ocen: 1
+  Monitor 3:
+      Matryca: 27
+      Rodzaj_matrycy: IPS
+      Rozdzielczosc_w: 1920
+      Rozdzielczosc_h: 1080
+      Jakosc_ekranu: 250
+      Czas_reakcji_matrycy: 5
+      Czestotliwosc_odswiezania: 60
+      Kontrast_statyczny: 1000
+      Cena: 699
+      Ocena: 5
+      Liczba_ocen: 53
+  Monitor 4:
+      Matryca: 27
+      Rodzaj_matrycy: VA
+      Rozdzielczosc_w: 1920
+      Rozdzielczosc_h: 1080
+      Jakosc_ekranu: 250
+      Czas_reakcji_matrycy: 4
+      Czestotliwosc_odswiezania: 60
+      Kontrast_statyczny: 3000
+      Cena: 749
+      Ocena: 4.4
+      Liczba_ocen: 68
+  Monitor 5:
+      Matryca: 24
+      Rodzaj_matrycy: VA
+      Rozdzielczosc_w: 1920
+      Rozdzielczosc_h: 1080
+      Jakosc_ekranu: 250
+      Czas_reakcji_matrycy: 4
+      Czestotliwosc_odswiezania: 60
+      Kontrast_statyczny: 3000
+      Cena: 549
+      Ocena: 5
+      Liczba_ocen: 1
+  Monitor 6:
+      Matryca: 18.5
+      Rodzaj_matrycy: TFT
+      Rozdzielczosc_w: 1366
+      Rozdzielczosc_h: 768
+      Jakosc_ekranu: 200
+      Czas_reakcji_matrycy: 5
+      Czestotliwosc_odswiezania: 60
+      Kontrast_statyczny: 700
+      Cena: 259
+      Ocena: 4.7
+      Liczba_ocen: 150
+  Monitor 7:
+      Matryca: 24.5
+      Rodzaj_matrycy: TN
+      Rozdzielczosc_w: 1920
+      Rozdzielczosc_h: 1080
+      Jakosc_ekranu: 250
+      Czas_reakcji_matrycy: 1
+      Czestotliwosc_odswiezania: 75
+      Kontrast_statyczny: 1000
+      Cena: 599
+      Ocena: 5
+      Liczba_ocen: 28
+  Monitor 8:
+      Matryca: 23.6
+      Rodzaj_matrycy: MVA
+      Rozdzielczosc_w: 1920
+      Rozdzielczosc_h: 1080
+      Jakosc_ekranu: 250
+      Czas_reakcji_matrycy: 5
+      Czestotliwosc_odswiezania: 60
+      Kontrast_statyczny: 3000
+      Cena: 449
+      Ocena: 4
+      Liczba_ocen: 3
+  Monitor 9:
+      Matryca: 23.8
+      Rodzaj_matrycy: IPS
+      Rozdzielczosc_w: 1920
+      Rozdzielczosc_h: 1080
+      Jakosc_ekranu: 250
+      Czas_reakcji_matrycy: 1
+      Czestotliwosc_odswiezania: 75
+      Kontrast_statyczny: 3000
+      Cena: 599
+      Ocena: 4.5
+      Liczba_ocen: 45
+  Monitor 10:
+      Matryca: 27
+      Rodzaj_matrycy: VA
+      Rozdzielczosc_w: 1920
+      Rozdzielczosc_h: 1080
+      Jakosc_ekranu: 250
+      Czas_reakcji_matrycy: 4
+      Czestotliwosc_odswiezania: 75
+      Kontrast_statyczny: 3000
+      Cena: 1029
+      Ocena: 5
+      Liczba_ocen: 9
+  Monitor 11:
+      Matryca: 24
+      Rodzaj_matrycy: TN
+      Rozdzielczosc_w: 1920
+      Rozdzielczosc_h: 1080
+      Jakosc_ekranu: 250
+      Czas_reakcji_matrycy: 1
+      Czestotliwosc_odswiezania: 60
+      Kontrast_statyczny: 1000
+      Cena: 499
+      Ocena: 5
+      Liczba_ocen: 114
+  Monitor 12:
+      Matryca: 23.8
+      Rodzaj_matrycy: IPS
+      Rozdzielczosc_w: 1920
+      Rozdzielczosc_h: 1080
+      Jakosc_ekranu: 250
+      Czas_reakcji_matrycy: 1
+      Czestotliwosc_odswiezania: 75
+      Kontrast_statyczny: 1000
+      Cena: 549
+      Ocena: 5
+      Liczba_ocen: 107
+  Monitor 13:
+      Matryca: 27
+      Rodzaj_matrycy: VA
+      Rozdzielczosc_w: 1920
+      Rozdzielczosc_h: 1080
+      Jakosc_ekranu: 250
+      Czas_reakcji_matrycy: 4
+      Czestotliwosc_odswiezania: 60
+      Kontrast_statyczny: 3000
+      Cena: 749
+      Ocena: 5
+      Liczba_ocen: 77
+  Monitor 14:
+      Matryca: 15
+      Rodzaj_matrycy: IPS
+      Rozdzielczosc_w: 2560
+      Rozdzielczosc_h: 1080
+      Jakosc_ekranu: 250
+      Czas_reakcji_matrycy: 5
+      Czestotliwosc_odswiezania: 75
+      Kontrast_statyczny: 1000
+      Cena: 649
+      Ocena: 5
+      Liczba_ocen: 15
+  Monitor 15:
+      Matryca: 34
+      Rodzaj_matrycy: IPS
+      Rozdzielczosc_w: 3440
+      Rozdzielczosc_h: 1440
+      Jakosc_ekranu: 300
+      Czas_reakcji_matrycy: 5
+      Czestotliwosc_odswiezania: 75
+      Kontrast_statyczny: 1000
+      Cena: 2999
+      Ocena: 5
+      Liczba_ocen: 14
+#
+# End of Alternatives Section
+#####################################
+# Goal Section
+#
+Goal:
+# A Goal HAS preferences (within-level comparison) and HAS Children (items in level)
+  name: Choose the best monitor
+  preferences:
+    pairwise:
+      - [wydajnosc, jakosc, 1]
+      - [wydajnosc, styl, 9]
+      - [wydajnosc, cena, 7]
+      - [jakosc, styl, 5]
+      - [jakosc, cena, 5]
+      - [styl, cena, 5]    
+  children: 
+    wydajnosc:
+      preferences:
+        pairwiseFunction:
+          function(a1, a2) max(a1$Czas_reakcji_matrycy, a2$Czas_reakcji_matrycy)
+      children: *alternatives
+    jakosc:
+      preferences:
+        pairwiseFunction:
+          function(a1, a2) max(a1$Jakosc_ekranu, a2$Jakosc_ekranu)
+      children: *alternatives
+    styl:
+      preferences:
+        pairwiseFunction:
+          function(a1, a2) max(a1$Matryca, a2$Matryca)
+      children: *alternatives
+    cena:
+      preferences:
+        pairwiseFunction:
+          function(a1, a2) min(a1$Cena, a2$Cena)
+      children: *alternatives 
+#
+# End of Goal Section
+#####################################
